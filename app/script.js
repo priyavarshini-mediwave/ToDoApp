@@ -152,16 +152,16 @@ function getfromLocal() {
   }
 }
 
-/*let name = document.querySelector("#work-input");
+let workname = document.querySelector("#work-input");
 let buttoninput=document.querySelector("#work-input-btn")
-name.addEventListener('input', () => {
-    if (name.value.length <= 0) {
+workname.addEventListener('input', () => {
+    if (workname.value.length <= 0) {
         buttoninput.disabled = true;
     }
     else {
         buttoninput.disabled = false;
     }
-});*/
+});
 
 getfromLocal();
 updateUI();
